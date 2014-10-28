@@ -128,7 +128,7 @@ class PlayCardView: UIControl {
         
         var CR = UIGraphicsGetCurrentContext()
         CGContextTranslateCTM(CR, self.bounds.width, self.bounds.height)
-        CGContextRotateCTM(CR, CGFloat.convertFromFloatLiteral(M_PI))
+        CGContextRotateCTM(CR, CGFloat(M_PI))
         cornersText.drawInRect(textBounds)
     }
     

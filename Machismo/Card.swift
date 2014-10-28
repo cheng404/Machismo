@@ -63,7 +63,7 @@ class Card {
             case .Queen: return "Q"
             case .King: return "K"
             default:
-                return String(self.toRaw())
+                return String(self.rawValue)
             }
         }
     }
